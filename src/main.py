@@ -2,7 +2,7 @@ import telebot
 
 import requests
 
-TOKEN = "7405669160:AAGUmEt8GN6Icj9R4IOX118Z-FsdjyEP4LM"
+TOKEN = "your token"
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start', 'help'])
